@@ -176,6 +176,13 @@ PRODUCT_PACKAGES += \
     CardinalOTA \
     AudioFX
 
+# DU Utils Library
+PRODUCT_PACKAGES += \
+    org.dirtyunicorns.utils
+
+PRODUCT_BOOT_JARS += \
+    org.dirtyunicorns.utils
+
 # Versioning System
 # Cardinal-AOSP first version.
 PRODUCT_VERSION_MAJOR = 6.0.1
